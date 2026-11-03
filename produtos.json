@@ -1,0 +1,1850 @@
+[
+  {
+    "id": 1,
+    "nome": "ABACATE AVOCADOcx03kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 36.0
+  },
+  {
+    "id": 2,
+    "nome": "ABACATE BREDAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 70.0
+  },
+  {
+    "id": 3,
+    "nome": "ABACATE FORTUNAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 4,
+    "nome": "ABACATE MANTEIGAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 70.0
+  },
+  {
+    "id": 5,
+    "nome": "ABACATE MARGARIDAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 50.0
+  },
+  {
+    "id": 6,
+    "nome": "ABACAXI HAVAIGRAUDOcx18kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 63.0
+  },
+  {
+    "id": 7,
+    "nome": "ABACAXI HAVAIMEDIOcx18kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 58.0
+  },
+  {
+    "id": 8,
+    "nome": "ABACAXI PÉROLAGRAUDOun1,8kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 7.0
+  },
+  {
+    "id": 9,
+    "nome": "ABACAXI PÉROLAGRAUDOcx15kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 60.0
+  },
+  {
+    "id": 10,
+    "nome": "ABACAXI PÉROLAMÉDIOun1,5kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 6.0
+  },
+  {
+    "id": 11,
+    "nome": "ABACAXI PÉROLAMÉDIOcx15kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 55.0
+  },
+  {
+    "id": 12,
+    "nome": "AMEIXA PRETAIMPORTADAcx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 175.0
+  },
+  {
+    "id": 13,
+    "nome": "AMEIXA VERMELHAIMPORTADAcx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 175.0
+  },
+  {
+    "id": 14,
+    "nome": "BANANA CATURRAPRIMEIRAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 60.0
+  },
+  {
+    "id": 15,
+    "nome": "BANANA CATURRASEGUNDAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 50.0
+  },
+  {
+    "id": 16,
+    "nome": "BANANA MAÇÃPRIMEIRAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 130.0
+  },
+  {
+    "id": 17,
+    "nome": "BANANA OUROcx06kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 70.0
+  },
+  {
+    "id": 18,
+    "nome": "BANANA PRATAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 19,
+    "nome": "BANANA TERRAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 175.0
+  },
+  {
+    "id": 20,
+    "nome": "CAQUI IMPORTADOIMPORTADOcx05kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 175.0
+  },
+  {
+    "id": 21,
+    "nome": "COCO SECOsc14kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 70.0
+  },
+  {
+    "id": 22,
+    "nome": "COCO VERDEun1,5kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 5.0
+  },
+  {
+    "id": 23,
+    "nome": "KIWI IMPORTADOIMPORTADOcx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 230.0
+  },
+  {
+    "id": 24,
+    "nome": "KIWI NACIONALNACIONALcx08kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 180.0
+  },
+  {
+    "id": 25,
+    "nome": "LARANJA BAHIAGRAUDAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 95.0
+  },
+  {
+    "id": 26,
+    "nome": "LARANJA BAHIAIMPORTADAcx15kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 130.0
+  },
+  {
+    "id": 27,
+    "nome": "LARANJA BAHIAMÉDIAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 75.0
+  },
+  {
+    "id": 28,
+    "nome": "LARANJA LIMAGRAUDAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 94.0
+  },
+  {
+    "id": 29,
+    "nome": "LARANJA LIMAMÉDIAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 75.0
+  },
+  {
+    "id": 30,
+    "nome": "LARANJA PERAGRAUDAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 30.0
+  },
+  {
+    "id": 31,
+    "nome": "LARANJA PERAMEDIAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 25.0
+  },
+  {
+    "id": 32,
+    "nome": "LARANJA PERAPEQUENAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 20.0
+  },
+  {
+    "id": 33,
+    "nome": "LIMAPERSIA",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx10kg",
+    "preco": 65.0
+  },
+  {
+    "id": 34,
+    "nome": "LIMAO ROSAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 50.0
+  },
+  {
+    "id": 35,
+    "nome": "LIMAO SICILIANOcx15kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 140.0
+  },
+  {
+    "id": 36,
+    "nome": "LIMAO SICILIANOIMPORTADOcx15kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 180.0
+  },
+  {
+    "id": 37,
+    "nome": "LIMAO TAHITIGRAUDOcx23kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 200.0
+  },
+  {
+    "id": 38,
+    "nome": "LIMAO TAHITIMEDIOcx23kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 180.0
+  },
+  {
+    "id": 39,
+    "nome": "MAÇÃ FUJICAT1TP80A100cx18kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 130.0
+  },
+  {
+    "id": 40,
+    "nome": "MAÇÃ FUJICAT2TP80A100cx18kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 95.0
+  },
+  {
+    "id": 41,
+    "nome": "MAÇÃ FUJICAT3TP100150cx18kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 70.0
+  },
+  {
+    "id": 42,
+    "nome": "MAÇÃ GALACAT1TP80A100cx18kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 140.0
+  },
+  {
+    "id": 43,
+    "nome": "MAÇÃ GALACAT2TP80A100cx18kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 75.0
+  },
+  {
+    "id": 44,
+    "nome": "MAÇÃ GALACAT3TP100150cx18kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 65.0
+  },
+  {
+    "id": 45,
+    "nome": "MAÇÃIMPORTADA GRANNYSMITHTP80A100cx18kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 250.0
+  },
+  {
+    "id": 46,
+    "nome": "MAÇÃIMPORTADA REDDELICIOUSTP80A100cx19kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 220.0
+  },
+  {
+    "id": 47,
+    "nome": "MAMAO FORMOSAMADURO01kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 6.3
+  },
+  {
+    "id": 48,
+    "nome": "MAMAO FORMOSAMADUROcx15kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 95.0
+  },
+  {
+    "id": 49,
+    "nome": "MAMAO PAPAYA/HAVAI24cx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 85.0
+  },
+  {
+    "id": 50,
+    "nome": "MANGA COQUINHOCOMUMcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 60.0
+  },
+  {
+    "id": 51,
+    "nome": "MANGA ESPADACOMUMcx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 65.0
+  },
+  {
+    "id": 52,
+    "nome": "MANGA ESPADAROSAcx06kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 53,
+    "nome": "MANGA PALMERcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 75.0
+  },
+  {
+    "id": 54,
+    "nome": "MANGA ROSAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 170.0
+  },
+  {
+    "id": 55,
+    "nome": "MANGA TOMMYATKINScx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 30.0
+  },
+  {
+    "id": 56,
+    "nome": "MANGA TOMMYATKINScx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 60.0
+  },
+  {
+    "id": 57,
+    "nome": "MARACUJÁ AZEDOcx11kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 140.0
+  },
+  {
+    "id": 58,
+    "nome": "MARACUJÁ DOCEcx2kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 30.0
+  },
+  {
+    "id": 59,
+    "nome": "MELANCIA BABYcx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 75.0
+  },
+  {
+    "id": 60,
+    "nome": "MELANCIA REDONDA01kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 2.2
+  },
+  {
+    "id": 61,
+    "nome": "MELÃO AMARELOREI ( 5-7und. )",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx10kg",
+    "preco": 120.0
+  },
+  {
+    "id": 62,
+    "nome": "MELÃO AMARELOCOMUM05a07UNcx13kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 85.0
+  },
+  {
+    "id": 63,
+    "nome": "MELÃO AMARELOCOMUM08a10UNcx13kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 75.0
+  },
+  {
+    "id": 64,
+    "nome": "MELÃO AMARELOCOMUM12a14UNcx13kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 80.0
+  },
+  {
+    "id": 65,
+    "nome": "ORANGE5A6UNcx06kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 70.0
+  },
+  {
+    "id": 66,
+    "nome": "PELEDESAPO5-6-8-10UNcx13kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 67,
+    "nome": "MORANGOTIPO1cx1,2kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 40.0
+  },
+  {
+    "id": 68,
+    "nome": "NECTARINA IMPORTADAIMPORTADAcx09kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 135.0
+  },
+  {
+    "id": 69,
+    "nome": "NECTARINA NACIONALNACIONALcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 170.0
+  },
+  {
+    "id": 70,
+    "nome": "PERAIMPORTADA D ' ANJOUTP80A100cx18kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 200.0
+  },
+  {
+    "id": 71,
+    "nome": "PERAIMPORTADA PACKHAM ' STP80A100cx18kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 170.0
+  },
+  {
+    "id": 72,
+    "nome": "PERAIMPORTADA PORTUGUESAcx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 215.0
+  },
+  {
+    "id": 73,
+    "nome": "PERAIMPORTADA WILLIAMSTP80A100cx18kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 240.0
+  },
+  {
+    "id": 74,
+    "nome": "PÊRANACIONAL YARIcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 75,
+    "nome": "PÊSSEGO IMPORTADOIMPORTADOcx09kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 200.0
+  },
+  {
+    "id": 76,
+    "nome": "PÊSSEGO NACIONALNACIONALcx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 90.0
+  },
+  {
+    "id": 77,
+    "nome": "PÊSSEGO NACIONALNACIONALcx18kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 180.0
+  },
+  {
+    "id": 78,
+    "nome": "PINHAO MEDIOMEDIOsc20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 278.0
+  },
+  {
+    "id": 79,
+    "nome": "PINHAO PITAIAC/12UNcx04kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 138.0
+  },
+  {
+    "id": 80,
+    "nome": "PINHAO TAMARAFRESCAFRESCAcx05kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 290.0
+  },
+  {
+    "id": 81,
+    "nome": "TANGERINA IMPORTADAIMPORTADAcx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 128.0
+  },
+  {
+    "id": 82,
+    "nome": "TANGERINA CRAVOcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 83,
+    "nome": "TANGERINA MIMOSA/MEXIRICACOMUMcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 130.0
+  },
+  {
+    "id": 84,
+    "nome": "TANGERINA MONTEN/BERGAMGRANDEcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 130.0
+  },
+  {
+    "id": 85,
+    "nome": "TANGERINA MURKOTEGRAUDAcx23kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 86,
+    "nome": "TANGERINA MURKOTEMEDIAcx23kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 85.0
+  },
+  {
+    "id": 87,
+    "nome": "TANGERINA PONKANGRAUDAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 88,
+    "nome": "UVA BENITAKENACIONALcx08kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 86.0
+  },
+  {
+    "id": 89,
+    "nome": "UVA BRASIL/CENTENIANACIONALcx08kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 80.0
+  },
+  {
+    "id": 90,
+    "nome": "UVA CRINSONIMPORTADAcx09kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 230.0
+  },
+  {
+    "id": 91,
+    "nome": "UVA CRINSONNACIONALcx05kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 115.0
+  },
+  {
+    "id": 92,
+    "nome": "UVA ITALIANACIONALcx08kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 86.0
+  },
+  {
+    "id": 93,
+    "nome": "UVA NIAGARAROSADAcx08kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 110.0
+  },
+  {
+    "id": 94,
+    "nome": "UVA PRETANACIONALcx08kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 88.0
+  },
+  {
+    "id": 95,
+    "nome": "UVA REDGLOIMPORTADAcx09kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 260.0
+  },
+  {
+    "id": 96,
+    "nome": "UVA RUBINACIONALcx08kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 65.0
+  },
+  {
+    "id": 97,
+    "nome": "UVA THOMPSONIMPORTADAcx09kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 230.0
+  },
+  {
+    "id": 98,
+    "nome": "UVA THOMPSONNACIONALcx05kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 85.0
+  },
+  {
+    "id": 99,
+    "nome": "VITÓRIANACIONALcx05kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 80.0
+  },
+  {
+    "id": 100,
+    "nome": "ABIUcx02kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 60.0
+  },
+  {
+    "id": 101,
+    "nome": "ACEROLA",
+    "tipo_embalagem": "pacote",
+    "embalagem": "pc01kg",
+    "preco": 60.0
+  },
+  {
+    "id": 102,
+    "nome": "ACEROLA AMORAcx02kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 86.0
+  },
+  {
+    "id": 103,
+    "nome": "ATEMOIA",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx18kg",
+    "preco": 230.0
+  },
+  {
+    "id": 104,
+    "nome": "ATEMOIA 15UNID15UNIDcx03kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 65.0
+  },
+  {
+    "id": 105,
+    "nome": "ATEMOIA CACAU10a12UNcx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 150.0
+  },
+  {
+    "id": 106,
+    "nome": "ATEMOIA CAJUcx1,5kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 45.0
+  },
+  {
+    "id": 107,
+    "nome": "CARAMBOLA",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx3kg",
+    "preco": 50.0
+  },
+  {
+    "id": 108,
+    "nome": "CARAMBOLA",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx07kg",
+    "preco": 70.0
+  },
+  {
+    "id": 109,
+    "nome": "CARAMBOLA CEREJAIMPORTADAcx04kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 672.0
+  },
+  {
+    "id": 110,
+    "nome": "FIGO ROXOcx1,5kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 84.0
+  },
+  {
+    "id": 111,
+    "nome": "GOIABA VERMELHAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 112,
+    "nome": "GOIABA GRAVIOLAcx08kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 114.0
+  },
+  {
+    "id": 113,
+    "nome": "GOIABA JABUTICABAbj300g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 5.0
+  },
+  {
+    "id": 114,
+    "nome": "GOIABA",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx3kg",
+    "preco": 90.0
+  },
+  {
+    "id": 115,
+    "nome": "GOIABA JACA01kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 2.0
+  },
+  {
+    "id": 116,
+    "nome": "GOIABA KINKANcx02kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 88.0
+  },
+  {
+    "id": 117,
+    "nome": "GOIABA MANGOSTIMcx01kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 150.0
+  },
+  {
+    "id": 118,
+    "nome": "GOIABA MIRTILOcx02kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 140.0
+  },
+  {
+    "id": 119,
+    "nome": "NÊSPERA",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx04kg",
+    "preco": 90.0
+  },
+  {
+    "id": 120,
+    "nome": "NOZ PECÃ01kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 132.0
+  },
+  {
+    "id": 121,
+    "nome": "PHYSALIS VELUVANACIONALcx1,5kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 60.0
+  },
+  {
+    "id": 122,
+    "nome": "PHYSALIS PINHA ( FRUTADOCONDE )",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx03kg",
+    "preco": 78.0
+  },
+  {
+    "id": 123,
+    "nome": "ROMA",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx04kg",
+    "preco": 35.0
+  },
+  {
+    "id": 124,
+    "nome": "ROMA IMPORTADAIMPORTADAcx03kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 135.0
+  },
+  {
+    "id": 125,
+    "nome": "ROMA TAMARINDOcx03kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 20.0
+  },
+  {
+    "id": 126,
+    "nome": "HOKAIDO/KABOTIAsc20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 45.0
+  },
+  {
+    "id": 127,
+    "nome": "MENINA/PAULISTAsc20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 80.0
+  },
+  {
+    "id": 128,
+    "nome": "MORANGAsc20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 35.0
+  },
+  {
+    "id": 129,
+    "nome": "SECA/PESCOÇO01kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 3.5
+  },
+  {
+    "id": 130,
+    "nome": "ABOBRINHA BRANCAEXTRAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 30.0
+  },
+  {
+    "id": 131,
+    "nome": "ABOBRINHA BRANCAEXTRAAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 60.0
+  },
+  {
+    "id": 132,
+    "nome": "ABOBRINHA VERDEEXTRAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 20.0
+  },
+  {
+    "id": 133,
+    "nome": "ABOBRINHA VERDEEXTRAAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 40.0
+  },
+  {
+    "id": 134,
+    "nome": "BERINJELA EXTRAAEXTRAAcx12kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 25.0
+  },
+  {
+    "id": 135,
+    "nome": "BERINJELA EXTRAAAEXTRAAAcx12kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 50.0
+  },
+  {
+    "id": 136,
+    "nome": "BERINJELA CAXIcx16kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 70.0
+  },
+  {
+    "id": 137,
+    "nome": "CHUCHU EXTRAAEXTRAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 25.0
+  },
+  {
+    "id": 138,
+    "nome": "CHUCHU EXTRAAAEXTRAAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 50.0
+  },
+  {
+    "id": 139,
+    "nome": "ERVILHA TORTA ( PR ) TORTA ( PR )",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx12kg",
+    "preco": 666.0
+  },
+  {
+    "id": 140,
+    "nome": "JILÓ",
+    "tipo_embalagem": "bandeja",
+    "embalagem": "bj450g-",
+    "preco": 4.0
+  },
+  {
+    "id": 141,
+    "nome": "JILÓ PRIMEIRAPRIMEIRAcx16kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 142,
+    "nome": "JILÓ MAXIXEPRIMEIRAbj500g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 3.5
+  },
+  {
+    "id": 143,
+    "nome": "JILÓ PRIMEIRAPRIMEIRAcx16kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 90.0
+  },
+  {
+    "id": 144,
+    "nome": "MILHO VERDEBANDEJAC/4UNbj1000g-1kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 7.0
+  },
+  {
+    "id": 145,
+    "nome": "MILHO VERDESCC/50ESPIGASsc50espigas-13kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 60.0
+  },
+  {
+    "id": 146,
+    "nome": "PEPINO AODAI/SALADAEXTRAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 20.0
+  },
+  {
+    "id": 147,
+    "nome": "PEPINO AODAI/SALADAEXTRAAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 50.0
+  },
+  {
+    "id": 148,
+    "nome": "PEPINO JAPONÊSEXTRAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 25.0
+  },
+  {
+    "id": 149,
+    "nome": "PEPINO JAPONÊSEXTRAAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 50.0
+  },
+  {
+    "id": 150,
+    "nome": "PIMENTA AMERICANAcx12kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 151,
+    "nome": "PIMENTA AMERICANABANDEJAbj250g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 3.0
+  },
+  {
+    "id": 152,
+    "nome": "PIMENTA BIQUINHObj250g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 3.0
+  },
+  {
+    "id": 153,
+    "nome": "PIMENTA BIQUINHOcx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 130.0
+  },
+  {
+    "id": 154,
+    "nome": "PIMENTA CAMBUCIcx12kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 120.0
+  },
+  {
+    "id": 155,
+    "nome": "PIMENTA CAMBUCIBANDEJAbj300g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 3.7
+  },
+  {
+    "id": 156,
+    "nome": "PIMENTA DEDODEMOÇA/ARDIDAcx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 157,
+    "nome": "PIMENTA DEDODEMOÇA/ARDIDABANDEJAbj150g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 4.0
+  },
+  {
+    "id": 158,
+    "nome": "PIMENTA MALAGUETAbj150g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 5.0
+  },
+  {
+    "id": 159,
+    "nome": "PIMENTAO AMARELOEXTRAAAcx12kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 80.0
+  },
+  {
+    "id": 160,
+    "nome": "PIMENTAO COLORIDOEXTRAAAcx12kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 80.0
+  },
+  {
+    "id": 161,
+    "nome": "PIMENTAO VERDEEXTRAAcx12kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 35.0
+  },
+  {
+    "id": 162,
+    "nome": "PIMENTAO VERDEEXTRAAAcx12kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 70.0
+  },
+  {
+    "id": 163,
+    "nome": "PIMENTAO VERMELHOEXTRAAAcx12kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 80.0
+  },
+  {
+    "id": 164,
+    "nome": "QUIABO",
+    "tipo_embalagem": "bandeja",
+    "embalagem": "bj300g-",
+    "preco": 4.0
+  },
+  {
+    "id": 165,
+    "nome": "QUIABO PRIMEIRAPRIMEIRAcx15kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 166,
+    "nome": "QUIABO SEGUNDASEGUNDAcx15kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 50.0
+  },
+  {
+    "id": 167,
+    "nome": "TOMATE CEREJAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 150.0
+  },
+  {
+    "id": 168,
+    "nome": "TOMATE CEREJABANDEJAbj200g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 4.0
+  },
+  {
+    "id": 169,
+    "nome": "TOMATE CEREJABANDEJAbj450g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 5.0
+  },
+  {
+    "id": 170,
+    "nome": "TOMATE LONGAVIDAEXTRAAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 220.0
+  },
+  {
+    "id": 171,
+    "nome": "TOMATE SALADETEEXTRAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 172,
+    "nome": "TOMATE SALADETEEXTRAAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 200.0
+  },
+  {
+    "id": 173,
+    "nome": "VAGEM BANDEJABANDEJAbj300g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 5.0
+  },
+  {
+    "id": 174,
+    "nome": "VAGEM MACARRAOEXTRAAcx15kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 75.0
+  },
+  {
+    "id": 175,
+    "nome": "VAGEM MACARRAOEXTRAAAcx15kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 150.0
+  },
+  {
+    "id": 176,
+    "nome": "AÇAFRÃO CÚRCUMAbj300g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 3.0
+  },
+  {
+    "id": 177,
+    "nome": "AIPIM-MANDIOCA PRIMEIRAPRIMEIRAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 50.0
+  },
+  {
+    "id": 178,
+    "nome": "AIPIM-MANDIOCA TOLETETOLETE01kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 5.0
+  },
+  {
+    "id": 179,
+    "nome": "ALHOIMPORTADO ROXOTP5cx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 200.0
+  },
+  {
+    "id": 180,
+    "nome": "ALHOIMPORTADO ROXOTP6a7cx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 220.0
+  },
+  {
+    "id": 181,
+    "nome": "ALHONACIONAL DESCASCADODESCASCADOpc01kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 25.0
+  },
+  {
+    "id": 182,
+    "nome": "ALHONACIONAL ROXOTP5cx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 170.0
+  },
+  {
+    "id": 183,
+    "nome": "ALHONACIONAL ROXOTP6a7cx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 220.0
+  },
+  {
+    "id": 184,
+    "nome": "BATATA CASCAROSADAESPECIALsc25kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 130.0
+  },
+  {
+    "id": 185,
+    "nome": "BATATA COMUMESPECIALsc25kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 186,
+    "nome": "BATATA COMUMMISTA/BONECAsc25kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 65.0
+  },
+  {
+    "id": 187,
+    "nome": "BATATA COMUMPRIMEIRINHAsc25kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 90.0
+  },
+  {
+    "id": 188,
+    "nome": "BRANCAEXTRAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 189,
+    "nome": "LARANJAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 80.0
+  },
+  {
+    "id": 190,
+    "nome": "ROXAEXTRAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 55.0
+  },
+  {
+    "id": 191,
+    "nome": "BATATAYAKON YAKONcx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 120.0
+  },
+  {
+    "id": 192,
+    "nome": "BATATAYAKON YAKONcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 240.0
+  },
+  {
+    "id": 193,
+    "nome": "BETERRABA EXTRAAEXTRAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 30.0
+  },
+  {
+    "id": 194,
+    "nome": "BETERRABA EXTRAAAEXTRAAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 60.0
+  },
+  {
+    "id": 195,
+    "nome": "BETERRABA CARAExtraAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 100.0
+  },
+  {
+    "id": 196,
+    "nome": "CEBOLA BRANCANACIONALsc20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 180.0
+  },
+  {
+    "id": 197,
+    "nome": "CEBOLA PERAIMPORTADAsc20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 130.0
+  },
+  {
+    "id": 198,
+    "nome": "CEBOLA PERANACIONALsc20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 120.0
+  },
+  {
+    "id": 199,
+    "nome": "CEBOLA ROXAsc20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 160.0
+  },
+  {
+    "id": 200,
+    "nome": "CENOURA COMUMEXTRAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 30.0
+  },
+  {
+    "id": 201,
+    "nome": "CENOURA COMUMEXTRAAAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 55.0
+  },
+  {
+    "id": 202,
+    "nome": "GENGIBRE PRIMEIRAPRIMEIRAcx16kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 136.0
+  },
+  {
+    "id": 203,
+    "nome": "GENGIBRE GOBOmç1,5kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 35.0
+  },
+  {
+    "id": 204,
+    "nome": "INHAME-TAIÁ PRIMEIRAPRIMEIRAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 110.0
+  },
+  {
+    "id": 205,
+    "nome": "MANDIOQUINHA/BATATASALSA",
+    "tipo_embalagem": "bandeja",
+    "embalagem": "bj450g-",
+    "preco": 2.8
+  },
+  {
+    "id": 206,
+    "nome": "MANDIOQUINHA/BATATASALSA PRIMEIRAPRIMEIRAcx10kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 70.0
+  },
+  {
+    "id": 207,
+    "nome": "MANDIOQUINHA/BATATASALSA PRIMEIRAPRIMEIRAcx20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 140.0
+  },
+  {
+    "id": 208,
+    "nome": "NABO BRANCOmç03kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 50.0
+  },
+  {
+    "id": 209,
+    "nome": "NABO RABANETEDZDEMAÇOScx12kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 55.0
+  },
+  {
+    "id": 210,
+    "nome": "NABO MACOMACOmç1,5kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 4.5
+  },
+  {
+    "id": 211,
+    "nome": "NABO AGRIAOMAÇOmç400g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 3.35
+  },
+  {
+    "id": 212,
+    "nome": "NABO ALECRIMMAÇOmç200g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 10.0
+  },
+  {
+    "id": 213,
+    "nome": "ALFACE AMERICANABANDEJAC/2UNbj500g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 6.0
+  },
+  {
+    "id": 214,
+    "nome": "ALFACE AMERICANAMÉDIAcx7,5kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 40.0
+  },
+  {
+    "id": 215,
+    "nome": "ALFACE CRESPAGRANDEcx07kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 40.0
+  },
+  {
+    "id": 216,
+    "nome": "ALFACE HIDROPÔNICOMÉDIAcx15un-07kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 40.0
+  },
+  {
+    "id": 217,
+    "nome": "ALFACE LISAGRANDEcx07kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 25.0
+  },
+  {
+    "id": 218,
+    "nome": "ROXAGRANDEcx07kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 35.0
+  },
+  {
+    "id": 219,
+    "nome": "ALHOPOROMAÇO4UNIDmç02kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 35.0
+  },
+  {
+    "id": 220,
+    "nome": "ALMEIRAO PÃODEACUCARMAÇOmç400g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 2.5
+  },
+  {
+    "id": 221,
+    "nome": "ASPARGO",
+    "tipo_embalagem": "maço",
+    "embalagem": "mç300g",
+    "preco": 30.0
+  },
+  {
+    "id": 222,
+    "nome": "ASPARGO IMPORTADOIMPORTADOmç500g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 40.0
+  },
+  {
+    "id": 223,
+    "nome": "ASPARGO BROTODEBAMBUMAÇOmç03kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 13.0
+  },
+  {
+    "id": 224,
+    "nome": "ASPARGO BROTODEFEIJAO/MOYASHIPACOTEpc500g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 9.0
+  },
+  {
+    "id": 225,
+    "nome": "ASPARGO CEBOLINHAmç400g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 8.0
+  },
+  {
+    "id": 226,
+    "nome": "ASPARGO CHEIROVERDEmç400g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 8.0
+  },
+  {
+    "id": 227,
+    "nome": "ASPARGO CHICORIA/ENDÍVIANACIONALcx05kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 282.0
+  },
+  {
+    "id": 228,
+    "nome": "ASPARGO COENTROMAÇOmç400g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 15.0
+  },
+  {
+    "id": 229,
+    "nome": "COGUMELO CHAMPIGNONBANDEJAbd01kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 15.0
+  },
+  {
+    "id": 230,
+    "nome": "COGUMELO SHIMEJIBANDEIJAbj300g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 12.0
+  },
+  {
+    "id": 231,
+    "nome": "COGUMELO SHITAKEBANDEJAbj250g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 13.0
+  },
+  {
+    "id": 232,
+    "nome": "COUVEBROCOLO",
+    "tipo_embalagem": "bandeja",
+    "embalagem": "bj250g-",
+    "preco": 4.17
+  },
+  {
+    "id": 233,
+    "nome": "COUVEBROCOLO AMERICANADUZIAdz06kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 66.0
+  },
+  {
+    "id": 234,
+    "nome": "COUVEBROCOLO RAMAMAÇOmç500g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 4.16
+  },
+  {
+    "id": 235,
+    "nome": "COUVECHINESA GRANDEGRANDEeg8un15kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 40.0
+  },
+  {
+    "id": 236,
+    "nome": "COUVEFLOR GRANDEGRANDEdz24kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 72.0
+  },
+  {
+    "id": 237,
+    "nome": "COUVEFLOR MEDIAMEDIAdz20kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 36.0
+  },
+  {
+    "id": 238,
+    "nome": "COUVEFLOR COUVEMANTEIGAMAÇOmç400g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 2.5
+  },
+  {
+    "id": 239,
+    "nome": "COUVEFLOR ESCAROLA/CHICORIAcx07kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 30.0
+  },
+  {
+    "id": 240,
+    "nome": "COUVEFLOR ESPINAFREmç400g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 3.35
+  },
+  {
+    "id": 241,
+    "nome": "COUVEFLOR HORTELAmç200g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 8.0
+  },
+  {
+    "id": 242,
+    "nome": "COUVEFLOR MANJERICÃOMAÇOmç100g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 8.0
+  },
+  {
+    "id": 243,
+    "nome": "COUVEFLOR MANJERONAbj50g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 0.8
+  },
+  {
+    "id": 244,
+    "nome": "COUVEFLOR ORÉGANOBANDEJAbj50g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 1.0
+  },
+  {
+    "id": 245,
+    "nome": "PALMITO PUPUNHAVIDROvd400g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 17.0
+  },
+  {
+    "id": 246,
+    "nome": "REPOLHO ROXOGRANDE/MEDIOeg25kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 50.0
+  },
+  {
+    "id": 247,
+    "nome": "REPOLHO VERDEGRANDEeg25kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 30.0
+  },
+  {
+    "id": 248,
+    "nome": "REPOLHO VERDEMEDIOeg25kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 15.0
+  },
+  {
+    "id": 249,
+    "nome": "REPOLHO RUCULAmç300g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 3.35
+  },
+  {
+    "id": 250,
+    "nome": "REPOLHO HIDROPÔNICOmç300g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 3.35
+  },
+  {
+    "id": 251,
+    "nome": "SALSAO ( AIPO )",
+    "tipo_embalagem": "maço",
+    "embalagem": "mç02kg",
+    "preco": 7.0
+  },
+  {
+    "id": 252,
+    "nome": "SALSINHAmç400g",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 8.0
+  },
+  {
+    "id": 253,
+    "nome": "SALVIAbj50g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 10.0
+  },
+  {
+    "id": 254,
+    "nome": "TOMILHObj50g-",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 10.0
+  },
+  {
+    "id": 255,
+    "nome": "OVO BRANCOEXTRAcxc/30dz-25kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 190.0
+  },
+  {
+    "id": 256,
+    "nome": "OVO BRANCOGRANDEcxc/30dz-25kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 180.0
+  },
+  {
+    "id": 257,
+    "nome": "OVO BRANCOPEQUENOcxc/30dz-25kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 170.0
+  },
+  {
+    "id": 258,
+    "nome": "OVO CODORNAcxc/50dz-25kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 120.0
+  },
+  {
+    "id": 259,
+    "nome": "OVO VERMELHOEXTRAcxc/30dz-25kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 225.0
+  },
+  {
+    "id": 260,
+    "nome": "AMENDOIM COMCASCAsc25kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 250.0
+  },
+  {
+    "id": 261,
+    "nome": "FEIJÃO CARIOCA01kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 9.0
+  },
+  {
+    "id": 262,
+    "nome": "FEIJÃO PRETO01kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 9.0
+  },
+  {
+    "id": 263,
+    "nome": "FEIJÃO GRÃODEBICO01kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 17.0
+  },
+  {
+    "id": 264,
+    "nome": "MILHO PIPOCAsc23kg",
+    "tipo_embalagem": "caixa",
+    "embalagem": "cx/un",
+    "preco": 161.0
+  }
+]
