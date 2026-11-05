@@ -5,9 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgroLucro</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+    <header>
+        <div class="logo">AgroLucro</div>
+
+        <nav>
+            <a href="#calculadora">Calculadora</a>
+            <a href="#historico">Minhas Cargas</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="calculadora" class="container">
+
+            <h2>Calculadora de Carga</h2>
+
+            <div class="campo">
+                
+     <label for="busca-produto">Digite o nome do produto:</label>
+         <input type="search" id="busca-produto" placeholder="buscar produto" list="produtos-sugeridos" autocomplete="off">
+        <button type="submit">Buscar</button>
+
+        <!--Caixa onde as divs de resultado vao aparecer-->
+       <div id="lista-resultados" class="caixa-resultados"></div>
+
+<datalist id="produtos-sugeridos"></datalist>
+
+            </div>
+        </section>
+    </main>
+<script src="script.js"></script>
 </body>
 
 </html>
