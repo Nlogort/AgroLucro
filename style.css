@@ -1,0 +1,82 @@
+
+
+
+
+
+
+
+.campo {
+    position: relative; 
+    margin-bottom: 15px;
+}
+.caixa-resultados {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 0 0 4px 4px;
+    max-height: 200px;
+    overflow-y: auto; /* Cria barra de rolagem se tiver muitos itens */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 100;
+}
+
+.item-resultado {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.item-resultado:hover {
+    background-color: #f1f8e9; /* Efeito verdinho quando passa o mouse */
+}
+
+/*parte dos produtos*/
+.item-resultado {
+    padding: 12px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-resultado:hover {
+    background-color: #f1f8e9;
+}
+
+.produto-nome {
+    font-size: 0.95em;
+    color: #333;
+}
+
+.badge-embalagem {
+    background-color: #e0e0e0;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.8em;
+    color: #555;
+    margin-right: 8px;
+}
+
+.produto-preco {
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
