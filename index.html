@@ -24,23 +24,30 @@
     <main>
         <section id="calculadora" class="container">
 
-            <h2>Calculadora de Carga</h2>
-
             <div class="campo">
-                
-     <label for="busca-produto">Digite o nome do produto:</label>
-         <input type="search" id="busca-produto" placeholder="buscar produto" list="produtos-sugeridos" autocomplete="off">
-        <button type="submit" id="btn-buscar">Buscar</button>
 
-        <!--Caixa onde as divs de resultado vao aparecer-->
-       <div id="lista-resultados" class="caixa-resultados"></div>
+                <label for="busca-produto">Digite o nome do produto:</label>
+                <input type="search" id="busca-produto" placeholder="buscar produto" list="produtos-sugeridos"
+                    autocomplete="off">
+                <button type="submit" id="btn-buscar">Buscar</button>
 
-<datalist id="produtos-sugeridos"></datalist>
+                <!--Caixa onde as divs de resultado vao aparecer-->
+                <div id="lista-resultados" class="caixa-resultados"></div>
 
+                <datalist id="produtos-sugeridos"></datalist>
+
+
+
+                <div id="painel-calculadora" class="painel-escondido">
+                    <h2>Calculadora de Carga</h2>
+                    <p>produto selecionado <span id="calc-nome-produto"></span></p>
+                    <p>Preço CEASA: R$ <span id="calc-preco-ceasa"></span></p>
+
+                </div>
             </div>
         </section>
     </main>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

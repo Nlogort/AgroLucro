@@ -1,14 +1,26 @@
-
-
-
-
-
-
-
 .campo {
-    position: relative; 
-    margin-bottom: 15px;
+
+    transition: all 0.3 ease;
+    pad: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px
 }
+
+.campo.expandido {
+    border-color: #2e7d32;
+    background-color: #f9fbf9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.campo-escondido{
+    display: none;
+}
+.campo-visivel{
+display: block;
+margin-top: 20px;
+padding-top: 20px;
+border-top: 2px dashed #e0e0e0;
+}
+
 .caixa-resultados {
     position: absolute;
     top: 100%;
@@ -18,8 +30,9 @@
     border: 1px solid #ccc;
     border-radius: 0 0 4px 4px;
     max-height: 200px;
-    overflow-y: auto; /* Cria barra de rolagem se tiver muitos itens */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow-y: auto;
+    /* Cria barra de rolagem se tiver muitos itens */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 100;
 }
 
@@ -30,7 +43,8 @@
 }
 
 .item-resultado:hover {
-    background-color: #f1f8e9; /* Efeito verdinho quando passa o mouse */
+    background-color: #f1f8e9;
+    /* Efeito verdinho quando passa o mouse */
 }
 
 /*parte dos produtos*/
@@ -66,17 +80,10 @@
     color: #2e7d32;
 }
 
+.painel-escondido {
+    display: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.painel-visivel {
+    display: block;
+}

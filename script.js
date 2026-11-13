@@ -94,3 +94,42 @@ botaoBuscar.addEventListener('click', () => {
         alert("Produto não encontrado!");
     }
 });
+
+function selecionarProduto(nome, preco){
+    inputBusca.value = nome;
+    caixaResultados.innerHTML = "";
+  
+    // 1. Pegamos o painel da calculadora pelo ID e tiramos a classe que o esconde (ou adicionamos uma que mostra)
+    const painelCalc = document.getElementById('painel-calculadora');
+    painelCalc.classList.remove('painel-escondido');
+    painelCalc.classList.add('painel-visivel');
+
+    // 2. Jogamos o nome e o preço lá dentro dos spans da calculadora
+    document.getElementById('calc-nome-produto').textContent = nome;
+    document.getElementById('calc-preco-ceasa').textContent = preco.toFixed(2);
+
+    console.log(`Produto selecionado para cálculo: ${nome} por R$ ${preco}`);
+}
+
+const campoBusca = document.querySelector('.campo')
+inputBusca.addEventListener('focus',()=>{
+    campoBusca.classList.add('expandido')
+})
+
+function selecionarProduto(nome,preco){
+    inputBusca.value=nome;//joga o nome no input
+    caixaResultados.innerHTML="";
+
+    // 1. Pega o painel da calculadora lá no HTML
+    const painelCalculadora = document.getElementById('painel-calculadora');
+
+    // 2. Tira a classe que esconde e coloca a classe que o torna visível
+    painelCalculadora.classList.remove('painel-escondido');
+    painelCalculadora.classList.add('painel-visivel');
+
+    // 3. Preenche os textos de lá com os dados vindos do JSON
+    document.getElementById('calc-nome-produto').textContent = nome;
+    document.getElementById('calc-preco-ceasa').textContent = preco.toFixed(2);
+
+    console.log(`Produto pronto para cálculo: ${nome} - R$ ${preco}`);
+}
