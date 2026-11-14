@@ -1,4 +1,6 @@
 let listaProdutos = []
+let precoProdutoSelecionado = 0;
+
 
 fetch('produtos.json')
     .then(resposta => resposta.json())
@@ -65,15 +67,6 @@ function exibirResultadosNaTela(produtos) {
     ).join('')
 
 }
-// Função opcional para quando o usuário clicar em um produto da lista
-function selecionarProduto(nome, preco) {
-    inputBusca.value = nome; // Joga o nome no input
-    caixaResultados.innerHTML = ""; // Fecha a caixinha de resultados
-    console.log(`Produto selecionado: ${nome} por R$ ${preco}`);
-}
-
-
-
 
 // 1. O usuário clica no botão "Buscar"
 botaoBuscar.addEventListener('click', () => {
@@ -95,21 +88,7 @@ botaoBuscar.addEventListener('click', () => {
     }
 });
 
-function selecionarProduto(nome, preco){
-    inputBusca.value = nome;
-    caixaResultados.innerHTML = "";
-  
-    // 1. Pegamos o painel da calculadora pelo ID e tiramos a classe que o esconde (ou adicionamos uma que mostra)
-    const painelCalc = document.getElementById('painel-calculadora');
-    painelCalc.classList.remove('painel-escondido');
-    painelCalc.classList.add('painel-visivel');
 
-    // 2. Jogamos o nome e o preço lá dentro dos spans da calculadora
-    document.getElementById('calc-nome-produto').textContent = nome;
-    document.getElementById('calc-preco-ceasa').textContent = preco.toFixed(2);
-
-    console.log(`Produto selecionado para cálculo: ${nome} por R$ ${preco}`);
-}
 
 const campoBusca = document.querySelector('.campo')
 inputBusca.addEventListener('focus',()=>{
@@ -131,5 +110,28 @@ function selecionarProduto(nome,preco){
     document.getElementById('calc-nome-produto').textContent = nome;
     document.getElementById('calc-preco-ceasa').textContent = preco.toFixed(2);
 
-    console.log(`Produto pronto para cálculo: ${nome} - R$ ${preco}`);
+    console.log(`Produto pronto para cálculo: ${nome}  R$ ${preco}`);
+
+    precoProdutoSelecionado=preco;
+    calcularMargem()
+}
+
+function calcularMargem() {
+    // 1. Pega os valores digitados nos inputs e transforma em número (Number)
+    // O "|| 0" evita erro caso o usuário apague o campo e deixe vazio
+    const quantidade = Number(document.getElementById('calc-quantidade').value) || 0;
+    const frete = Number(document.getElementById('calc-frete').value) || 0;
+    const margem = Number(document.getElementById('calc-margem').value) || 0;
+
+    // 2. Faz as contas básicas
+    const custoTotal = (precoProdutoSelecionado * quantidade) + frete;
+    const custoUnitario = quantidade > 0 ? (custoTotal / quantidade) : 0;
+    const vendaTotal = custoTotal + (custoTotal * (margem / 100));
+    const lucroLiquido = vendaTotal - custoTotal;
+
+    // 3. Atualiza os textos na tela com 2 casas decimais
+    document.getElementById('res-custo-total').textContent = custoTotal.toFixed(2);
+    document.getElementById('res-custo-unitario').textContent = custoUnitario.toFixed(2);
+    document.getElementById('res-venda-total').textContent = vendaTotal.toFixed(2);
+    document.getElementById('res-lucro').textContent = lucroLiquido.toFixed(2);
 }
