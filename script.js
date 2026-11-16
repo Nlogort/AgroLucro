@@ -80,7 +80,7 @@ botaoBuscar.addEventListener('click', () => {
     // 3. Verificamos se achamos e "chamamos" a variável para preencher a tela
     if (produtoEncontrado) {
         // Aqui pegamos os elementos do HTML e jogamos os dados de dentro da nossa variável
-        document.getElementById('res-preco-ceasa').textContent = `R$ ${produtoEncontrado.preco.toFixed(2)}`;
+        document.getElementById('calc-preco-ceasa').textContent = `R$ ${produtoEncontrado.preco.toFixed(2)}`;
         
         console.log("Mostrando dados do produto:", produtoEncontrado.nome);
     } else {
@@ -134,4 +134,25 @@ function calcularMargem() {
     document.getElementById('res-custo-unitario').textContent = custoUnitario.toFixed(2);
     document.getElementById('res-venda-total').textContent = vendaTotal.toFixed(2);
     document.getElementById('res-lucro').textContent = lucroLiquido.toFixed(2);
+}
+
+function mudarPerfil(perfil){
+    const comprador= document.getElementById('form-comprador');
+    const produtor=document.getElementById('form-produtor');
+//BOTOES DE CADA UM
+    const botaoComprador=document.getElementById('btn-comprador')
+    const botaoProdutor= document.getElementById('btn-produtor')
+
+    if(perfil==='comprador'){
+       
+        comprador.classList.remove('escondido');
+         produtor.classList.add('escondido')
+        botaoComprador.classList.add('ativo');
+        botaoProdutor.classList.remove('ativo');
+    }else{
+        produtor.classList.remove('escondido');
+        comprador.classList.add('escondido');
+          botaoComprador.classList.remove('ativo');
+        botaoProdutor.classList.add('ativo');
+    }
 }

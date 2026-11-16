@@ -87,3 +87,13 @@ border-top: 2px dashed #e0e0e0;
 .painel-visivel {
     display: block;
 }
+
+/* AREA DE ESCOLHA DO PRODUTO NA CALCULADORA*/
+
+.escondido{
+    display: none;
+}
+.aba-perfil.ativo{
+    background-color: #2e7d32;
+    color: white;
+}
