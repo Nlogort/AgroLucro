@@ -136,6 +136,15 @@ function calcularMargem() {
     document.getElementById('res-lucro').textContent = lucroLiquido.toFixed(2);
 }
 
+function calcularProdutor(){
+    const quantidadeCaixas = Number(document.getElementById('prod-quantidade').value) ||0;
+    const precoVendas = Number(document.getElementById('prod-preco-venda').value) ||0;
+    const custoProducao = Number(document.getElementById('prod-custo-caixa').value) ||0;
+    const custoFrete = Number(document.getElementById('prod-frete').value) ||0;
+    const custoComissao = Number(document.getElementById('prod-comissao').value) ||0;
+}
+
+
 function mudarPerfil(perfil){
     const comprador= document.getElementById('form-comprador');
     const produtor=document.getElementById('form-produtor');

@@ -35,49 +35,77 @@
                 <div id="lista-resultados" class="caixa-resultados"></div>
 
                 <datalist id="produtos-sugeridos"></datalist>
-<!--LOCAL QUE SELECIONA SE VOCE PRODUS OU APEMAS COMPRA-->
+                <!--LOCAL QUE SELECIONA SE VOCE PRODUS OU APEMAS COMPRA-->
+
+
+
                 <div class="seletor-perfil">
-                    <button class="aba-perfil ativo" onclick="mudarPerfil('comprador')" id="btn-comprador">Sou Comprador /
+                    <button class="aba-perfil ativo" onclick="mudarPerfil('comprador')" id="btn-comprador">Sou Comprador
+                        /
                         Feirante</button>
-                    <button class="aba-perfil" onclick="mudarPerfil('produtor')" id="btn-produtor">Sou Produtor / Agricultor</button>
+                    <button class="aba-perfil" onclick="mudarPerfil('produtor')" id="btn-produtor">Sou Produtor /
+                        Agricultor</button>
                 </div>
-<!--/////////////////////////////////////////////////////////-->
+                <!--/////////////////////////////////////////////////////////-->
 
                 <div id="painel-calculadora" class="painel-escondido">
                     <h2>Calculadora de Carga</h2>
-                    <p>produto selecionado <span id="calc-nome-produto"></span></p>
+                    <p>produto selecionado: <span id="calc-nome-produto"></span></p>
                     <p>Preço CEASA: R$ <span id="calc-preco-ceasa"></span></p>
-<div id="form-comprador">
-    
+                    <div id="form-comprador">
+
                         <div class="inputs-calculo">
                             <label for="calc-quantidade">Quantidade (caixas/unid):</label>
                             <input type="number" id="calc-quantidade" value="1" min="1">
-    
+
                             <label for="calc-frete">Valor do Frete (R$):</label>
                             <input type="number" id="calc-frete" value="0" min="0" step="0.01" placeholder="Ex: 150.00">
-    
+
                             <label for="calc-margem">Margem de Lucro desejada (%):</label>
                             <input type="number" id="calc-margem" value="30" min="0">
                         </div>
-    
+
                         <div class="resultados-calculo">
                             <p>Custo Total (Produtos + Frete): R$ <span id="res-custo-total">0.00</span></p>
                             <p>Custo Real por Unidade: R$ <span id="res-custo-unitario">0.00</span></p>
                             <p>Preço de Venda Sugerido (Total): R$ <span id="res-venda-total">0.00</span></p>
                             <p>Lucro Líquido Estimado: R$ <span id="res-lucro">0.00</span></p>
-    
-                            <button onclick="calcularMargem()">calcular</button>
-</div>
 
-<div id="form-produtor" class="escondido">
-<h3>Calculadora do produtor</h3>
-</div>
-
+                            <button type="button" onclick="calcularMargem()">calcular</button>
+                        </div>
                     </div>
-                </div>
 
-            
-           
+                    <div id="form-produtor" class="escondido">
+                        <!--QUANTIDADE DAS CAIXAS-->
+                        <label for="prod-quantidade">Quantidade de caixas/maços/sacas:</label>
+                        <input type="number" id="prod-quantidade" value="50" min="1">
+ <!--PREÇO DAS VENDAS-->
+                        <label for="prod-preco-venda">Preço de venda: </label>
+                        <input type="number"id="prod-preco-venda" step="0.01">
+ <!--CUSTOS DA PRODUÇÃO-->
+                         <label for="prod-custo-caixa">Custo de produção por Caixa (R$): </label>
+                        <input type="number"id="prod-custo-caixa" step="0.01" placeholder="Ex: 25.00">
+ <!--FRETE ATÉ O CEASA (R$)-->
+                         <label for="prod-frete">Frete até a CEASA(R$): </label>
+                        <input type="number"id="prod-frete" value="0" min="0" step="0.01">
+ <!--COMISSÃO CEASA-->
+                         <label for="prod-comissao">Taxa/Comissão CEASA (%)</label>
+                        <input type="number"id="prod-comissao" value="8" min="0" max="100">
+
+                        <p>Faturamento Bruto: R$ <span id="res-prod-bruto">0.00</span></p>
+
+                        <p>Despesas Totais: R$ <span id="res-prod-custos">0.00</span></p>
+                        
+                        <p>Lucro Líquido Estimado: R$ <span>0.00</span></p>
+
+                        <button type="button" onclick="calcularProdutor()">Calcular Lucro</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+
         </section>
     </main>
     <script src="script.js"></script>
