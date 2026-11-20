@@ -8,23 +8,10 @@ fetch('produtos.json')
         listaProdutos = dados;
         console.log("Produtos carregados com sucesso!", listaProdutos.length);
 
-        preencherDatalist(listaProdutos);
+      
     })
     .catch(erro => console.log("Erro ao carregar o JSON:", erro));
-// Função para popular o datalist com as opções do JSON
-function preencherDatalist(produtos) {
-    const datalist = document.getElementById('produtos-sugeridos');
 
-    //Limpa o datalist antes de preencher (para garantir que não duplique)
-    datalist.innerHTML = "";
-
-    //para cada produto ma lista criamos a tag <option>
-    produtos.forEach(produto => {
-        const option = document.createElement('option');
-        option.value = produto.nome;//aparece a sugestao do nome
-        datalist.appendChild(option);//adiciona a opção dentro do datalist
-    })
-}
 //peguei o html
 
 const inputBusca = document.getElementById('busca-produto');
@@ -95,6 +82,33 @@ inputBusca.addEventListener('focus', () => {
     campoBusca.classList.add('expandido')
 })
 
+// BUSCAR COM ENTER=============================================
+function executarBusca(){
+   const termoPesquisado = inputBusca.value.trim().toLowerCase();
+
+   if (termoPesquisado === "") return;
+
+   const produtoEncontrado = listaProdutos.find(produto => produto.nome.toLowerCase().includes(termoPesquisado));
+
+   if (produtoEncontrado){
+    selecionarProduto(produtoEncontrado.nome, produtoEncontrado.preco);
+   }else{
+    alert("produto nao encontrado")
+   }
+}
+// Essa mizeria faz parte da busca com o enter==================
+
+ botaoBuscar.addEventListener('click', executarBusca );
+    inputBusca.addEventListener('keydown', (e) =>{
+        if (e.key === 'Enter'){
+
+            e.preventDefault();
+            executarBusca()
+        }
+    })
+//==============================================================
+
+
 function selecionarProduto(nome, preco) {
     inputBusca.value = nome;//joga o nome no input
     caixaResultados.innerHTML = "";
@@ -114,8 +128,9 @@ function selecionarProduto(nome, preco) {
 
     precoProdutoSelecionado = preco;
     calcularMargem()
+    calcularProdutor()
 }
-
+//CALCULADORA DO REVENDEDOR==================================
 function calcularMargem() {
     // 1. Pega os valores digitados nos inputs e transforma em número (Number)
     // O "|| 0" evita erro caso o usuário apague o campo e deixe vazio
@@ -135,7 +150,7 @@ function calcularMargem() {
     document.getElementById('res-venda-total').textContent = vendaTotal.toFixed(2);
     document.getElementById('res-lucro').textContent = lucroLiquido.toFixed(2);
 }
-
+//CALCULADORA DO PRODUTO=====================================
 function calcularProdutor() {
 
     const quantidadeCaixas = Number(document.getElementById('prod-quantidade').value) || 0;
@@ -159,7 +174,7 @@ function calcularProdutor() {
     document.getElementById('res-lucro-liquido').textContent = lucroLiquido.toFixed(2);
 }
 
-
+//MUDAR O PERFIL==============================================
 function mudarPerfil(perfil) {
     const comprador = document.getElementById('form-comprador');
     const produtor = document.getElementById('form-produtor');
