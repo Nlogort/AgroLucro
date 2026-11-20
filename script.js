@@ -54,7 +54,7 @@ function exibirResultadosNaTela(produtos) {
 
     // Para cada produto encontrado, criamos uma <div> usando .map() e .join('')
 
-    caixaResultados.innerHTML = produtos.map(produto => 
+    caixaResultados.innerHTML = produtos.map(produto =>
         `
         <div class="item-resultado" onclick="selecionarProduto('${produto.nome}', ${produto.preco})">
             <div class="produto-nome"><strong>${produto.nome}</strong></div>
@@ -73,7 +73,7 @@ botaoBuscar.addEventListener('click', () => {
     const termoPesquisado = inputBusca.value.trim();
 
     // 2. Procuramos na nossa lista usando o .find() que você entendeu
-    const produtoEncontrado = listaProdutos.find(produto => 
+    const produtoEncontrado = listaProdutos.find(produto =>
         produto.nome.toLowerCase() === termoPesquisado.toLowerCase()
     );
 
@@ -81,7 +81,7 @@ botaoBuscar.addEventListener('click', () => {
     if (produtoEncontrado) {
         // Aqui pegamos os elementos do HTML e jogamos os dados de dentro da nossa variável
         document.getElementById('calc-preco-ceasa').textContent = `R$ ${produtoEncontrado.preco.toFixed(2)}`;
-        
+
         console.log("Mostrando dados do produto:", produtoEncontrado.nome);
     } else {
         alert("Produto não encontrado!");
@@ -91,13 +91,13 @@ botaoBuscar.addEventListener('click', () => {
 
 
 const campoBusca = document.querySelector('.campo')
-inputBusca.addEventListener('focus',()=>{
+inputBusca.addEventListener('focus', () => {
     campoBusca.classList.add('expandido')
 })
 
-function selecionarProduto(nome,preco){
-    inputBusca.value=nome;//joga o nome no input
-    caixaResultados.innerHTML="";
+function selecionarProduto(nome, preco) {
+    inputBusca.value = nome;//joga o nome no input
+    caixaResultados.innerHTML = "";
 
     // 1. Pega o painel da calculadora lá no HTML
     const painelCalculadora = document.getElementById('painel-calculadora');
@@ -112,7 +112,7 @@ function selecionarProduto(nome,preco){
 
     console.log(`Produto pronto para cálculo: ${nome}  R$ ${preco}`);
 
-    precoProdutoSelecionado=preco;
+    precoProdutoSelecionado = preco;
     calcularMargem()
 }
 
@@ -136,32 +136,47 @@ function calcularMargem() {
     document.getElementById('res-lucro').textContent = lucroLiquido.toFixed(2);
 }
 
-function calcularProdutor(){
-    const quantidadeCaixas = Number(document.getElementById('prod-quantidade').value) ||0;
-    const precoVendas = Number(document.getElementById('prod-preco-venda').value) ||0;
-    const custoProducao = Number(document.getElementById('prod-custo-caixa').value) ||0;
-    const custoFrete = Number(document.getElementById('prod-frete').value) ||0;
-    const custoComissao = Number(document.getElementById('prod-comissao').value) ||0;
+function calcularProdutor() {
+
+    const quantidadeCaixas = Number(document.getElementById('prod-quantidade').value) || 0;
+    // const precoVendas = Number(document.getElementById('prod-preco-venda').value) ||0;
+    const custoProducao = Number(document.getElementById('prod-custo-caixa').value) || 0;
+    const custoFrete = Number(document.getElementById('prod-frete').value) || 0;
+    const custoComissao = Number(document.getElementById('prod-comissao').value) || 0;
+
+    // passo 2
+
+    const ganhoBruto = precoProdutoSelecionado * quantidadeCaixas;
+    const custoCaixa = quantidadeCaixas * custoProducao;
+
+    //vai ser o custo da produção entao ela diminui do valor geral  
+    const custoTaxa = ganhoBruto * (custoComissao / 100)
+    const despesasTotais = custoCaixa + custoFrete + custoTaxa;
+    const lucroLiquido = ganhoBruto - despesasTotais
+    // 3 passo
+    document.getElementById('res-prod-bruto').textContent = ganhoBruto.toFixed(2);
+        document.getElementById('res-prod-custos').textContent =despesasTotais.toFixed(2);
+    document.getElementById('res-lucro-liquido').textContent = lucroLiquido.toFixed(2);
 }
 
 
-function mudarPerfil(perfil){
-    const comprador= document.getElementById('form-comprador');
-    const produtor=document.getElementById('form-produtor');
-//BOTOES DE CADA UM
-    const botaoComprador=document.getElementById('btn-comprador')
-    const botaoProdutor= document.getElementById('btn-produtor')
+function mudarPerfil(perfil) {
+    const comprador = document.getElementById('form-comprador');
+    const produtor = document.getElementById('form-produtor');
+    //BOTOES DE CADA UM
+    const botaoComprador = document.getElementById('btn-comprador')
+    const botaoProdutor = document.getElementById('btn-produtor')
 
-    if(perfil==='comprador'){
-       
+    if (perfil === 'comprador') {
+
         comprador.classList.remove('escondido');
-         produtor.classList.add('escondido')
+        produtor.classList.add('escondido')
         botaoComprador.classList.add('ativo');
         botaoProdutor.classList.remove('ativo');
-    }else{
+    } else {
         produtor.classList.remove('escondido');
         comprador.classList.add('escondido');
-          botaoComprador.classList.remove('ativo');
+        botaoComprador.classList.remove('ativo');
         botaoProdutor.classList.add('ativo');
     }
 }

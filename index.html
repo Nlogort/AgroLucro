@@ -26,6 +26,15 @@
 
             <div class="campo">
 
+                
+                <div class="seletor-perfil">
+                    <button class="aba-perfil ativo" onclick="mudarPerfil('comprador')" id="btn-comprador">Sou Comprador
+                        /
+                        Feirante</button>
+                    <button class="aba-perfil" onclick="mudarPerfil('produtor')" id="btn-produtor">Sou Produtor /
+                        Agricultor</button>
+                </div>
+
                 <label for="busca-produto">Digite o nome do produto:</label>
                 <input type="search" id="busca-produto" placeholder="buscar produto" list="produtos-sugeridos"
                     autocomplete="off">
@@ -39,13 +48,6 @@
 
 
 
-                <div class="seletor-perfil">
-                    <button class="aba-perfil ativo" onclick="mudarPerfil('comprador')" id="btn-comprador">Sou Comprador
-                        /
-                        Feirante</button>
-                    <button class="aba-perfil" onclick="mudarPerfil('produtor')" id="btn-produtor">Sou Produtor /
-                        Agricultor</button>
-                </div>
                 <!--/////////////////////////////////////////////////////////-->
 
                 <div id="painel-calculadora" class="painel-escondido">
@@ -78,10 +80,15 @@
                     <div id="form-produtor" class="escondido">
                         <!--QUANTIDADE DAS CAIXAS-->
                         <label for="prod-quantidade">Quantidade de caixas/maços/sacas:</label>
-                        <input type="number" id="prod-quantidade" value="50" min="1">
+                        <input type="number" id="prod-quantidade" value="0" min="1">
  <!--PREÇO DAS VENDAS-->
-                        <label for="prod-preco-venda">Preço de venda: </label>
+                       <!--
+ CASO PRECISE ISSO DAQUI E SO PARA UMA EVENTUAL VENDA EM PATIO
+ PERMITINDO QUE USUARIO PUDESSE COLOCAR PREÇO DIFERENTE DO QUE O DA CEASA
+                       <label for="prod-preco-venda">Preço de venda: </label>
                         <input type="number"id="prod-preco-venda" step="0.01">
+                        
+                        --> 
  <!--CUSTOS DA PRODUÇÃO-->
                          <label for="prod-custo-caixa">Custo de produção por Caixa (R$): </label>
                         <input type="number"id="prod-custo-caixa" step="0.01" placeholder="Ex: 25.00">
@@ -96,7 +103,7 @@
 
                         <p>Despesas Totais: R$ <span id="res-prod-custos">0.00</span></p>
                         
-                        <p>Lucro Líquido Estimado: R$ <span>0.00</span></p>
+                        <p>Lucro Líquido Estimado: R$ <span id="res-lucro-liquido">0.00</span></p>
 
                         <button type="button" onclick="calcularProdutor()">Calcular Lucro</button>
                     </div>
